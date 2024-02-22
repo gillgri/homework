@@ -3,117 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <title>Homework</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Inter&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+<div>
+    <section class="container">
 
-    <header class="header">
-        <h1 class="header-text">Интернет-магазин "Не только красивое"</h1>
-    </header>
-
-    <section class="section">
-
-    <div class="inner-1 color">
-        <h2 class="inner-text">Морская рыба</h2>
-        <p><input type="checkbox" name="a" value="Акула">Акула</p>
-        <p><input type="checkbox" name="a" value="Окунь">Окунь</p>
-        <p><input type="checkbox" name="a" value="Палтус">Палтус</p>
-        <p><input type="checkbox" name="a" value="Треска">Треска</p>
-
-        <h2 class="inner-text">Пресноводная рыба</h2>
-        <p><input type="checkbox" name="a" value="Белоглазка">Белоглазка</p>
-        <p><input type="checkbox" name="a" value="Осётр">Осётр</p>
-        <p><input type="checkbox" name="a" value="Речной угорь">Речной угорь</p>
-        <p><input type="checkbox" name="a" value="Налим">Налим</p>
-    </div>
+        <header class="header">
+            <h1 class="header__title">Интернет-магазин "Не только красивое"</h1>
+        </header>
 
 
-    <div class="inner-2">
-        <div class="inner-2__main-text">
-            <h1 class="inner-2__main">Рыбы на любой вкус</h1>
-            <div class="inner-2__text">Мы продаём рыбов, а не только показываем!</div>
-        </div>
+        <section class="section">
 
-        <div class="blocks">
-            <div class="block1 color">
-                <div class="blocks__text">Замороженные рыбы</div>
-                <div class="blocks__text2">Мы заморозили рыбов для вас</div>
+            <div class="sidebar color">
+                <h2 class="content-text">Морская рыба</h2>
+                <p><input type="checkbox" value="Акула">Акула</p>
+                <p><input type="checkbox" value="Окунь">Окунь</p>
+                <p><input type="checkbox" value="Палтус">Палтус</p>
+                <p><input type="checkbox" value="Треска">Треска</p>
+
+                <h2 class="content-text">Пресноводная рыба</h2>
+                <p><input type="checkbox" value="Белоглазка">Белоглазка</p>
+                <p><input type="checkbox" value="Осётр">Осётр</p>
+                <p><input type="checkbox" value="Речной угорь">Речной угорь</p>
+                <p><input type="checkbox" value="Налим">Налим</p>
             </div>
 
-            <div class="block2 color">
-                <div class="blocks__text">Живые рыбы</div>
-                <div class="blocks__text2">На кухню или на разведение</div>
-            </div>
-        </div>
 
-        <div class="inner-3">
-            <h1>Популярные</h1>
-
-            <div class="items">
-            <div class="item color">
-                <div class="sqr"></div>
-                <div class="inner-2__main-text">
-                    <div class="blocks__text">Палтус</div>
-                    <button>Купить</button>
+            <div class="main">
+                <div class="main-title">
+                    <h1 class="main-title__top">Рыбы на любой вкус</h1>
+                    <div class="main-title__text">Мы продаём рыбов, а не только показываем!</div>
                 </div>
-            </div>
 
-            <div class="item color">
-                <div class="sqr"></div>
-                <div class="inner-2__main-text">
-                    <div class="blocks__text">Сёмга</div>
-                    <button>Купить</button>
+                <div class="blocks">
+                    <div class="block color">
+                        <div class="block__title">Замороженные рыбы</div>
+                        <div class="block__text">Мы заморозили рыбов для вас</div>
+                    </div>
+
+                    <div class="block color">
+                        <div class="block__title">Живые рыбы</div>
+                        <div class="block__text">На кухню или на разведение</div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="item color">
-                <div class="sqr"></div>
-                <div class="inner-2__main-text">
-                    <div class="blocks__text">Сом</div>
-                    <button>Купить</button>
+
+                <div class="main-blocks">
+                    <h1>Популярные</h1>
+
+                    <div class="items">
+                        <div class="item color">
+                            <div class="picture"></div>
+                            <div class="item__text">
+                                <div class="block__title">Палтус</div>
+                                <button class="button">Купить</button>
+                            </div>
+                        </div>
+
+                        <div class="item color">
+                            <div class="picture"></div>
+                            <div class="item__text">
+                                <div class="block__title">Сёмга</div>
+                                <button class="button">Купить</button>
+                            </div>
+                        </div>
+
+                        <div class="item color">
+                            <div class="picture"></div>
+                            <div class="item__text">
+                                <div class="block__title">Сом</div>
+                                <button class="button">Купить</button>
+                            </div>
+                        </div>
+
+                        <div class="item color">
+                            <div class="picture"></div>
+                            <div class="item__text">
+                                <div class="block__title">Мойва</div>
+                                <button class="button">Купить</button>
+                            </div>
+                        </div>
+
+                        <div class="item color">
+                            <div class="picture"></div>
+                            <div class="item__text">
+                                <div class="block__title">Сельдь</div>
+                                <button class="button">Купить</button>
+                            </div>
+                        </div>
+
+                        <div class="item color">
+                            <div class="picture"></div>
+                            <div class="item__text">
+                                <div class="block__title">Тунец</div>
+                                <button class="button">Купить</button>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-            </div>
-
-            <div class="item color">
-                <div class="sqr"></div>
-                <div class="inner-2__main-text">
-                    <div class="blocks__text">Мойва</div>
-                    <button>Купить</button>
-                </div>
-            </div>
-
-            <div class="item color">
-                <div class="sqr"></div>
-                <div class="inner-2__main-text">
-                    <div class="blocks__text">Сельдь</div>
-                    <button>Купить</button>
-                </div>
-            </div>
-
-            <div class="item color">
-                <div class="sqr"></div>
-                <div class="inner-2__main-text">
-                    <div class="blocks__text">Тунец</div>
-                    <button>Купить</button>
-                </div>
-            </div>
 
             </div>
-        </div>
 
-    </div>
 
+        </section>
+
+        <footer class="footer color">
+            <div class="block__text">Контакты</div>
+            <div class="block__text">2024г. Гришко А.А.</div>
+        </footer>
 
     </section>
-
-    <footer class="footer color">
-        <div class="blocks__text2">Контакты</div>
-        <div class="blocks__text2">2024г. Гришко А.А.</div>
-    </footer>
-
-
+</div>
 </body>
 </html>

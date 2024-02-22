@@ -1,4 +1,9 @@
 body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
     margin: 0 auto;
     width: 1000px;
     font-family: Inter, sans-serif;
@@ -13,7 +18,7 @@ body{
     line-height: 56px;
 }
 
-.header-text{
+.header__title{
     padding-left: 20px;
 }
 
@@ -21,7 +26,7 @@ body{
     display: flex;
 }
 
-.inner-1{
+.sidebar{
     width: 240px;
     height: 600px;
     padding-left: 20px;
@@ -29,18 +34,18 @@ body{
     margin-top: 10px;
 }
 
-.inner-2{
+.main{
     padding-left: 10px;
     padding-top: 0;
     margin-top: 10px;
 }
 
-.inner-2__main{
+.main-title__top{
     font-size: 32px;
     margin-bottom: 3px;
 }
 
-.inner-2__text{
+.main-title__text{
     font-size: 16px;
 }
 
@@ -48,13 +53,13 @@ body{
     background-color: #f2f2f2;
 }
 
-.inner-text{
+.content-text{
     font-size: 16px;
     margin-bottom: 3px;
     margin-top: 0;
 }
 
-.inner-2__main-text{
+.item__text{
     padding-left: 10px;
 }
 
@@ -70,7 +75,7 @@ p {
     gap: 10px;
 }
 
-.block1, .block2{
+.block{
     padding-left: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -78,12 +83,12 @@ p {
     width: 360px;
 }
 
-.blocks__text{
+.block__title{
     color: dodgerblue;
     text-decoration: underline;
 }
 
-.blocks__text2{
+.block__text{
     color: gray;
 }
 
@@ -98,13 +103,13 @@ p {
     padding: 10px;
 }
 
-.sqr{
+.picture{
     background-color: #c2c2c2;
     width: 60px;
     height: 60px;
 }
 
-button{
+.button{
     margin-top: 20px;
     padding: 2px 5px;
     border: none;
@@ -116,4 +121,28 @@ footer{
     justify-content: space-between;
     padding: 15px;
     margin-top: 10px;
+}
+
+.dark-theme{
+    background-color: dimgray;
+}
+
+.color__dark-theme{
+    background-color: #b0b0b0 ;
+}
+
+.button__dark-theme{
+    background-color: dimgray;
+}
+
+
+
+
+@media (max-width: 520px){
+    .sidebar{
+       display: none;
+    }
+    .section{
+        justify-content: center;
+    }
 }
