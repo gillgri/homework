@@ -16,10 +16,33 @@ body{
     color: white;
     font-size: 12px;
     line-height: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loader{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    animation-name: loader;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes loader {
+    from {
+       transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+
 }
 
 .header__title{
     padding-left: 20px;
+    align-self: center;
 }
 
 .section{
@@ -51,6 +74,15 @@ body{
 
 .color{
     background-color: #f2f2f2;
+}
+
+.item{
+    transition: 0.5s;
+}
+
+.item:hover{
+    background-color: #96b09e;
+
 }
 
 .content-text{
